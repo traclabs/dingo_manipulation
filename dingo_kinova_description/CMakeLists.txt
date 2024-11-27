@@ -7,10 +7,10 @@ catkin_package()
 
 include_directories()
 
-install(DIRECTORY meshes urdf
+install(DIRECTORY urdf
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 install(PROGRAMS
-  scripts/setup_dingo_gen3_lite_envar
+  scripts/dingo_gen3_lite_envar
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
